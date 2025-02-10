@@ -1,0 +1,29 @@
+[workspace]
+members = [
+    "wts-cli", "wts-core"
+]
+exclude = []
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+description = ""
+repository = "https://github.com/LVivona/gnosis"
+keywords = ["machine-learning", "workflow"]
+license = "MIT"
+
+
+[workspace.dependencies]
+safetensors = "0.5.2"
+clap = { version = "4.2.4", features = ["derive"] }
+thiserror = { version = "2.0.11" } 
+tracing = "0.1"
+tracing-subscriber = "0.3.19"
+wts-core = { path = "./wts-core", version = "*"}
+flate2 = "1.0"
+serde = { version = "1.0.217", features = ["derive"] } 
+serde_json = "1.0.138"
+sha2 = "0.10.8"
+chrono = "0.4.39"
+hex = "0.4.3"
+memmap2 = "0.9.5"

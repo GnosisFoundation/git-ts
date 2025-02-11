@@ -8,7 +8,7 @@ exclude = []
 version = "0.0.1"
 edition = "2021"
 description = ""
-repository = "https://github.com/LVivona/gnosis"
+repository = "https://github.com/GnosisFoundation/wts"
 keywords = ["machine-learning", "workflow"]
 license = "MIT"
 
